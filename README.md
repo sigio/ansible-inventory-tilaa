@@ -27,7 +27,7 @@ From the Tilaa api documentation at https://www.tilaa.com/en/api/docs:
   you should add an API user to your customer account and use the
   specified login credentials to authenticate.
 
-# Comment
+# Tilaa-with-replace.py ?
 
 Tilaa doesn't allow any dots or underscores in their 'friendly' hostnames
 that are presented in the webinterface and API. Since we prefer to use the
@@ -42,3 +42,6 @@ but back to demo.sig-io.nl for Ansible/AWX/Tower.
 
 I have requested tilaa to allow dots or underscores, but have not received
 a reply yet.
+
+The other inventory-script 'tilaa.py' doesn't do this replacement, so it's
+your choice if you wanna use it.
