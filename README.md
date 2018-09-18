@@ -5,8 +5,9 @@ This script will talk to the Tilaa.com API to query the configured
 virtual machines.  It needs access to the Tilaa API credentials in
 the form of the environment-variables
 
-TILAA_USERNAME
-TILAA_PASSWORD
+  TILAA_USERNAME
+  
+  TILAA_PASSWORD
 
 At this time it's not 100% conformant to what AWX/Tower expects a
 dynamic inventory to do, but it works good enough to provide the hosts
